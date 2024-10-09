@@ -1,11 +1,7 @@
 set background=dark
-set number
-set relativenumber
 set foldmethod=syntax
 set nohlsearch
-set scrolloff=3
 let g:rustfmt_autosave = 1
-set clipboard+=unnamedplus
 set spelllang=en_us
 set spell
 set undofile
