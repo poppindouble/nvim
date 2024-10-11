@@ -178,7 +178,8 @@ vim.keymap.set('x', 'p', 'P', { desc = 'Do not overwrite the register when paste
 vim.keymap.set({ 'n', 'x' }, 'c', '"_c', { desc = 'remap c to black hole c' })
 vim.keymap.set({ 'n', 'x' }, 'x', '"_x', { desc = 'remap x to black hole x' })
 
-vim.opt.foldmethod = 'syntax'
+-- Folding by default
+-- vim.opt.foldmethod = 'syntax'
 -- vim.opt.spell = true
 
 vim.cmd [[
